@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(11, 9, 173);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+  
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #ffffff;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: rgb(500, 0, 0);
+  height: 1250px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(255, 247, 0);
+  padding: 10px;
+  text-align: center;
+  color: rgb(3, 1, 1);
+
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+    img {
+weight: 300px;
+height: 300px;
+    }
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>FPRD</h2>
+</header>
+
+<section>
+
+  <article>
+    <h2>Doctors check on Hague-bound Duterte during Dubai layover</h2>
+        <p>MANILA — Doctors monitored President Rodrigo Duterte on Wednesday on his way to The Hague following his arrest on an International Criminal Court warrant tied to his deadly crackdown on drugs, ABS-CBN News sources said. 
+
+            Police doctors checked on Duterte as he lay down on an airplane bed during a layover in Dubai, photos and videos shared to ABS-CBN News showed.
+<center>
+            
+          <img src="https://od2-image-api.abs-cbn.com/prod/editorImage/17417597030931741759700598.jpeg" alt="" width="250" height="250">
+  </center>  
+
+
+<p>Another photo showed police doctors monitoring Duterte’s heartbeat while he was sitting beside former Executive Secretary and lawyer Salvador Medialdea.
+ </p>
+
+ <center>
+            
+    <img src="https://od2-image-api.abs-cbn.com/prod/editorImage/17417597297131741759729085.jpeg" alt=""  width="250" height="250">
+</center>
+
+<p>The 79-year-old Duterte faces a charge of "the crime against humanity of murder", according to the ICC, for a crackdown that rights groups estimate killed tens of thousands of mostly poor men, often without proof they were linked to drugs.
+</p>
+
+<h2>
+    Duterte daughter Kitty seeks his PH return
+</h2>
+    <p>Vice President Sara Duterte, another daughter, left on a morning flight for Amsterdam, her office said without offering further details.</p>
+
+<h2>
+    Sara Duterte jets off to the Netherlands where dad Rodrigo faces ICC case
+</h2>
+<p>Ex-President Duterte was arrested at Manila's international airport Tuesday after "Interpol Manila received the official copy of the warrant of arrest from the ICC", Malacanang said.
+
+    Before his departure, Vice President Duterte said her father was being "forcibly taken to The Hague".
+
+    "This is not justice -- this is oppression and persecution," she said in a statement.
+</p>
+<h2>
+    'Blatant affront to our sovereignty': Sara Duterte decries father's arrest
+</h2>
+<p>Malacanang said the government's decision to "surrender" the Duterte patriarch to international authorities was legal under Republic Act 9851.
+
+    "He was not extradited in the first place, he was surrendered... It is regular, what the government did, it was based on the law, RA 9851," Palace Press Officer Claire Castro said in a briefing, referring to the Philippine Act on Crimes Against International Humanitarian Law, Genocide, and Other Crimes Against Humanity.
+    
+    "I can say it is normal but this is the first time that we did this so if you did everything based on the law, I think there could be no question on that," she added.
+    
+    An ICC spokesman said an initial appearance hearing would be scheduled when Duterte was in court custody.
+    
+    Castro said Malacanang does not have information if more warrants will be issued in the ICC investigation.
+    
+    “As of now wala kaming nare-receive na information kung may darating pa na warrant of arrest through the Interpol. Kung meron man po ay ganon pa rin ang magiging tugon namin kapag hiningi ng Interpol ang tulong ng administrasyon. Tutugon pa rin tayo," she told reporters.
+    
+    "Magiging iba siguro ang sitwasyon kung 'yung mga subject ng warrant of arrest ay kusang magsu-surrender, hindi na po siguro kakailanganin yung naging drama kahapon."
+</p>
+
+</article>
+</section>
+
+<footer>
+  <p>duque website</p> 
+</footer>
+
+</body>
+</html>
