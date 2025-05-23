@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - Carl's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="about-page">
+  <!-- Intro Transition -->
+  <div id="intro">
+    <h1>Let’s get to know each other better!</h1>
+    <div class="dots">
+  <span>.</span><span>.</span><span>.</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <section id="about">
+      <h1 class="section-title">About Me</h1>
+      <p class="subtitle"></p>
+      
+      <div class="profile-image">
+        <img src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-6/480185321_1911772006018312_5730943805374482799_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFkCoyff2LE8iqS0X_I3u748rHx7E69ETnysfHsTr0ROWzVnhDC2DMOuVYlH7ReJwylPlb_bkGNEag0t6-GWiar&_nc_ohc=MSFprGA_FaMQ7kNvwGSWg7a&_nc_oc=Adl9BsNoDRegV9blk_-HJ8fQY7G9lxPrku_al33vHEcqsUadOsnCiCXJ3ZTV-bWvpSWFOZz7JlYPCTYVH3HEN2Hs&_nc_zt=23&_nc_ht=scontent.fdvo2-1.fna&_nc_gid=UvjM3HF6PzC17N_S8W-JwA&oh=00_AfI35cXRwHvNlUmzP5et3kTdCASMSy6K1PmjeHSJkB9r9g&oe=6835C19F" alt="Carl's Profile">
+      </div>
+
+      <p class="expertise-text">
+        Hello! I'm Carl, I am an aspiring AI and software developer with a passion for building intelligent systems and innovative applications. My work focuses on creating solutions that not only solve real-world problems but also push the boundaries of what technology can do. I enjoy exploring how machine learning, automation, and data-driven models can bring smarter, more adaptive systems to life.
+      <br>
+      <br>
+      With a solid foundation in programming, algorithms, and system architecture, I have experience developing, testing, and maintaining software across different platforms. I take pride in writing clean, efficient code and turning complex challenges into user-friendly solutions. Whether it’s designing a responsive app or training an AI model, I aim to deliver results that are both impactful and reliable.
+      <br>
+      <br>
+      I’m constantly learning and staying updated with the latest trends in AI and software development. I believe in the power of innovation and collaboration, and I’m excited to contribute to meaningful projects that make a difference. My goal is to grow as a developer while helping shape a smarter, tech-driven future.
+    </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>© 2025 Carl Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script>
+    window.addEventListener('load', () => {
+      const intro = document.getElementById('intro');
+      const footer = document.getElementById('footer');
+      setTimeout(() => {
+        intro.classList.add('fade-out');
+        footer.style.display = 'block';
+      }, 2500);
+    });
+  </script>
+</body>
+</html>
